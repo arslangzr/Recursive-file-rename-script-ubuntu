@@ -1,0 +1,3 @@
+To use the script, save it to a file (e.g. rename_pictures.sh), make it executable with chmod +x rename_pictures.sh, and then run it with ./rename_pictures.sh.
+
+This script will loop through all directories in the current directory, go into each directory, and rename all .png files in the directory to the name of the directory followed by an underscore and a number (e.g. folder_1.png, folder_2.png, etc.). It will then go back to the parent directory and repeat the process for the next directory.
